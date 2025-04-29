@@ -1,0 +1,297 @@
+header.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:burlywood;
+    
+
+}
+
+
+header.logo img {
+    background-color:burlywood;
+    width: 500px;
+    height: auto;
+    
+}
+
+/* To add background  color for body website  */
+
+
+body{
+  background-color: rgb(58, 53, 50);  
+}
+
+
+/* To remove the margins out of the website edges */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+
+/* To remove the underline of the nav bars, add color and shadow  */
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+
+
+nav {
+    text-align:center;
+padding: 2%;
+    display:flex;
+    justify-content: space-around;
+    background-color:burlywood;
+    
+}
+
+
+
+
+
+
+/* To Add color to the texts  */
+
+p,h1,h2 ,h3 , figure ,li {
+    color: white;
+    text-shadow: 0px 0px 5px rgb(161, 117, 28) ;
+font-size: 18px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* To Add aside section   */
+
+aside{
+width: 120px ;
+background-color: rgba(255, 255, 255, 0.451);
+border-left: 3px solid burlywood;
+float: right;
+}
+
+
+audio{
+    padding: 10px;
+    margin-top: 2%;
+}
+article{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+
+}
+
+h2{
+    color: white;
+}
+img{
+    justify-content: space-between;
+}
+
+
+
+/* To add Prodcuts styles  */
+
+h2{
+    text-align: center;
+    padding: 2%;
+    
+}
+
+#Productboxes {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+ 
+
+
+.products {
+   gap: 10px;
+   max-width: 400px;
+   margin: auto;
+   
+}
+
+
+
+.products img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.product button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+/* To add Home section and figure captions for pictures */
+#Home{
+    padding: 5%;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+figure {
+  text-align: center;          
+  margin: 0;                   
+  width: 30%;                 
+  display: inline-block;  
+  padding: 1%;     
+}
+
+figcaption {
+  font-size: 1em;
+  margin-top: 10px;           
+}
+
+img {
+  width: 100%;                 
+  height: auto;              
+}
+/* To add About Section with column count text */
+
+
+#About{
+    text-align: center;
+    align-items: center; 
+    padding: 10%;
+}
+
+.Aboutus{
+    column-count: 2;
+column-gap: 30px;
+column-rule: 2px dotted burlywood;
+padding: 3%;
+}
+
+/* To add contact section and  contact form */
+
+#Contact {
+text-align: center;
+padding: 5%;
+
+}
+
+
+#Contactform {
+padding: 1%;
+background-color: white;
+border-radius: 20px;
+
+
+}
+
+button{
+    width: 100px;
+    background-color: burlywood;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+/* To add fonts  */
+
+
+
+@font-face {
+font-family:'Gravitas_One';
+src:url(/fonts/Gravitas_One/GravitasOne-Regular.ttf) format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family:'Winky_Sans';
+    src: url(/fonts/Winky_Sans/static/WinkySans-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    
+    }
+
+    @font-face {
+        font-family:'Winky_Sans';
+        src:url(/fonts/Winky_Sans/static/WinkySans-Light.ttf) format('truetype');
+        font-weight: 300;
+        font-weight: lighter;
+        font-style: normal;
+        }
+
+
+
+
+body      {
+font-family:'Winky_Sans';
+font-weight: bold;
+}
+
+h1,h2,h3{
+    font-family: 'Gravitas_One';
+    font-weight: normal;
+}
+
+/* To first letter style for progress bar il  */
+
+ li::first-letter{
+        font-size: 2em;
+        color:white;
+
+    }
+
+
+    /* To add single-self quiz   */
+    .question {
+        color: white;
+        margin-bottom: 15px;
+        padding: 1%;
+        background-color: black;
+        border-radius: 10px;
+    }
+    .feedback {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    /* To add  a footer  */
+
+     footer {
+     background-color:burlywood;
+     color: white;
+     text-align: center;
+     width: 100%;
+    padding: 100px;
+    }
+
